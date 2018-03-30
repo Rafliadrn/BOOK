@@ -1,0 +1,527 @@
+@font-face{
+	font-family: 'Saira Semi Condensed';
+	src: url('asset/Saira_Semi_Condensed/SairaSemiCondensed-bold.ttf');
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Saira Semi Condensed';
+}
+h2{
+	font-size: 30px;
+}
+p{
+	font-family: sans-serif;
+}
+header{
+	width: 100%;
+	background-color: #fff;
+	position: fixed;
+	z-index: 1000;	
+}
+#menu-icon 
+{	
+	background: url('img/nav.png')no-repeat center;
+	display: hidden;
+	width: 40px;
+	height: 40px;
+}
+#logo{
+	float: left;
+}
+#logo h1{
+	color: #0B94C8;
+	padding: 10px 0;
+}
+nav{
+	float: right;
+}
+nav ul li{
+	list-style: none;
+	padding: 23px 10px;
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: #000;
+}
+nav ul li a:hover{
+	color: #0B94C8;
+	transition: .5 ease;
+}
+.help{
+	padding-left: 200px;
+}
+.sign{
+	border: 2px solid #000;
+	padding: 3px;
+	border-radius: 3px;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+.banner{
+	width: 100%;
+	background: url('img/tradebook.jpg') no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.banner-inner{
+	padding: 15%;
+	text-align: center;
+	color: #0B94C8;
+}
+.banner-inner h2{
+	margin: 0.5% 0;
+	font-size: 45px;
+}
+.banner-inner p{
+	font-size: 30px;
+}
+form{
+	margin: 2% 0;
+}
+form input{
+	padding: 7px;
+	width: 30%;
+	border-radius: 3px;
+	border: none;
+}
+form select{
+	padding: 7px;
+	border-radius: 3px;
+	border: none;
+}
+form button{
+	padding: 7px;
+	background-color: #0001FC;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.formats{
+	width: 100%;
+	position: relative;
+}
+.formats h2{
+	margin: 2% 0;
+}
+.formats-inner{
+	width: 23%;
+	margin: 1%;
+	float: left;
+}
+.formats-inner img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+}
+.formats button{
+	background-color: #444444;
+	color: #fff;
+	width: 15%;
+	padding: 10px;
+	border: none;
+	margin: 3% 43%;
+}
+.formats button:hover{
+	background-color: #F0EEFB;
+	color: #000;
+	transition: .5s ease;
+	cursor: pointer;
+}
+.book{
+	width: 100%;
+	background: #F2F0F1;
+	padding: 27% 0;
+}
+.book h2{
+	text-align: center;
+	margin: -5% 0 5% 12%; 
+}
+.book img{
+	float: left;
+	width: 35%;
+	margin: -26% auto;
+}
+.description-book{
+	float: right;
+	width: 40%;
+	margin: -25% auto;
+}
+.description-book p{
+	width: 80%;
+	float: right;
+}
+.description-book i{
+	width: 20%;
+	float: left;
+	font-size: 30px;
+	margin-top: 3%;
+}
+.fitur{
+	width: 100%;
+	position: relative;
+}
+.fitur-inner{
+	width: 31.333%;
+	margin: 3% 1%;
+	float: left;
+}
+.fitur-inner img{
+	width: 100%;
+	height: 250px;
+}
+.fitur-inner h3{
+	margin-top: -25%;
+	padding: 0 5px;
+	position: relative;
+	color: #fff;
+}
+.fitur-inner p{
+	margin-top: -0%;
+	padding: 0 5px;
+	position: relative;
+	color: #fff;
+}
+.fitur button{
+	background-color: #444444;
+	color: #fff;
+	width: 15%;
+	padding: 10px;
+	border: none;
+	margin: 3% 43%;
+}
+.fitur button:hover{
+	background-color: #F0EEFB;
+	color: #000;
+	transition: .5s ease;
+	cursor: pointer;
+}
+.books{
+	width: 100%;
+	position: relative;
+	background-color: #F5F5F5;
+	margin: 2% 0; 
+}
+.books-inner{
+	width: 23%;
+	margin: 0 1%;
+	float: left;
+}
+.books h2{
+	padding: 2% 0;
+}
+.books-inner img{
+	width: 100%;
+	height: 300px;
+	margin: 5% 0;
+	object-fit: cover;
+}
+.books button{
+	background-color: #444444;
+	color: #fff;
+	width: 15%;
+	padding: 10px;
+	border: none;
+	margin: 4% 43%;
+}
+.books button:hover{
+	background-color: #fff;
+	color: #000;
+	transition: .5s ease;
+	cursor: pointer;
+}
+.fitur-fitur h3{
+	color: #000;
+	margin: 0;
+}
+.fitur-fitur p{
+	color: #000;
+}
+.publish{
+	width: 100%;
+	position: relative;
+}
+.publish img{
+	width: 40%;
+	float: left;
+	object-fit: cover;
+	margin: 6% 0;
+}
+.publish-inner{
+	float: right;
+	width: 50%;
+	margin-top: 5%;
+}
+.sponsor img{
+	width: 30%;
+	margin: 0 1%;
+	object-fit: cover;
+}
+.tool{
+	width: 100%;
+	background: #F0EEFB;
+	padding: 15% 0;
+}
+.tool img{
+	width: 30%;
+	float: right;
+	margin-top: -15%;
+	object-fit: cover;
+}
+.tool-inner{
+	float: left;
+	width: 50%;
+	margin-top: -15%;
+	margin-bottom: 20px;
+}
+.tool button{
+	width: 20%;
+	padding: 10px;
+	background-color: #0001FC;
+	color: #fff;
+	border: none;
+	margin: 20% 0 0 -27%;
+}
+.tool button:hover{
+	background-color: #fff;
+	color: #000;
+	transition: .5s ease;
+	cursor: pointer;
+}
+.logo{
+	float: left;
+	margin: 1% 0 1% -5%;
+}
+.logo img{
+	width: 25%;
+	margin: 1% 4% 0 0;
+	object-fit: cover;
+}
+footer{
+	width: 100%;
+	position: relative;
+	background-color: #2D2D2D;
+	color: #fff;
+	padding: 2% 0;
+}
+footer h4{
+	text-align: center;
+	padding: 1% 0;
+	border-top: 1px solid #fff;
+}
+table{
+	margin: 0 auto;
+	text-align: center;
+}
+table i{
+	padding: 0 5px;
+	color: #fff;
+}
+table td{
+	padding: 5px 10px;
+}
+.clearfix{
+	clear: both;
+}
+
+@media screen and (max-width: 768px)
+{	
+	*
+	{
+		margin: 0;
+		padding: 0;
+	}
+	#menu-icon
+	{
+		display: inline-block;
+		background: url(img/nav.png);
+		padding: 15px;
+		margin: -10px 5px;
+		float: right;
+	}
+	nav ul, nav:active ul
+	{
+		display: none;
+		position: absolute;
+		padding: 5px 5px;
+		background-color: #fff;
+		right: 0;
+		top: 50px;
+		border: 1px solid #fff;
+		border-radius: 2px;
+	}
+	nav:hover ul
+	{
+		display: block;
+	}
+	nav li
+	{
+		text-align: center;
+		width: 100%;
+		padding: 5px 0px;
+	}
+	nav ul li a:hover
+	{
+		color: #26B5B6;
+	}
+	.banner
+	{
+		padding: 35% 0;
+	}
+	.banner-inner h2
+	{
+	font-size: 30px;
+	}
+	.banner-inner p
+	{
+		font-size: 15px;
+	}
+	form input
+	{
+		width: 100%;
+		margin: 2% 0;
+		padding: 5px;
+	}
+	form select
+	{
+		width: 80%;
+		margin: 0 auto;
+		padding: 5px;
+	}
+	form button
+	{
+		padding: 5px;
+		width: 100%;
+		margin: 10% 0;
+	}
+	h2
+	{
+		text-align: center;
+		font-size: 20px;
+	}
+	h3
+	{
+		text-align: center;
+	}
+	p
+	{
+		text-align: center;
+	}
+	.formats-inner
+	{
+		width: 100%;
+		margin: 3% 0;
+	}
+	.formats h2
+	{
+		margin: 5% 0;
+	}
+	.formats button
+	{
+		width: 50%;
+		margin: 5% 25%;
+	}
+	.book
+	{
+		background: #F2F0F1;
+		padding: 175% 0;
+		margin: 5% 0; 
+	}
+	.book h2
+	{
+		margin-top: 5%;
+	}
+	.book img
+	{
+		width: 100%;
+		margin-top: -180%;
+	}
+	.description-book
+	{
+		width: 100%;
+	}
+	.fitur-inner
+	{
+		width: 100%;
+	}
+	.fitur-inner h3
+	{
+		margin-top: -35%;
+		padding: 0 5px;
+	}
+	.fitur button
+	{
+		width: 50%;
+		margin: 3% 25%;
+	}
+	.books-inner
+	{
+		width: 100%;
+	}
+	.books button
+	{
+		width: 50%;
+		margin: 3% 25%;
+	}
+	.fitur-fitur h3
+	{
+		color: #000;
+		margin: 0;
+	}
+	.fitur-fitur p
+	{
+		color: #000;
+	}
+	.publish img
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	.publish-inner
+	{
+		width: 100%;
+	}
+	.sponsor
+	{
+		width: 70%;
+		margin: 0 17%;
+	}
+	.tool
+	{
+		background: #F2F0F1;
+		padding: 57% 0;
+	}
+	.tool-inner
+	{
+		width: 100%;
+		margin-top: -50%;
+		margin-bottom: 0;
+	}
+	.tool button
+	{
+		width: 50%;
+		margin: 10% 25%;
+		padding: 7px;
+	}
+	table 
+	{
+		width: 100%;
+		margin: 0 auto;
+	}
+	table th
+	{
+		display: none;
+	}
+	table td
+	{
+		width: 100%;
+		text-align: center;
+		float: left;
+	}
+}
